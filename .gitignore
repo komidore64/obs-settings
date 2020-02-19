@@ -1,0 +1,8 @@
+logs
+plugin_config
+plugins/*
+!plugins/.gitkeep
+profiler_data
+
+*.json.bak
+basic/profiles/*/service.json
