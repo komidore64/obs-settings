@@ -12,3 +12,7 @@ rm -rf ${HOME}/.config/obs-studio
 git clone git@github.com:komidore64/obs-settings.git
 ln -s $(realpath obs-settings) ${HOME}/.config/obs-studio
 ```
+
+## plugins
+
+- [obs-linuxbrowser](https://github.com/bazukas/obs-linuxbrowser)
