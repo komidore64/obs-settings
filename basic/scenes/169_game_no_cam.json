@@ -109,7 +109,7 @@
         "settings": {
             "device_id": "alsa_input.usb-1e4e_7016_20000130041415-02.analog-stereo"
         },
-        "sync": 100000000,
+        "sync": 75000000,
         "volume": 0.56495118141174316
     },
     "DesktopAudioDevice1": {
