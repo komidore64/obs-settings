@@ -17,7 +17,7 @@
                 "monitoring_type": 0,
                 "muted": false,
                 "name": "Noise Gate",
-                "prev_ver": 402653190,
+                "prev_ver": 419430401,
                 "private_settings": {},
                 "push-to-mute": false,
                 "push-to-mute-delay": 0,
@@ -29,6 +29,7 @@
                     "open_threshold": -25.0
                 },
                 "sync": 0,
+                "versioned_id": "noise_gate_filter",
                 "volume": 1.0
             },
             {
@@ -43,7 +44,7 @@
                 "monitoring_type": 0,
                 "muted": false,
                 "name": "Compressor",
-                "prev_ver": 402653190,
+                "prev_ver": 419430401,
                 "private_settings": {},
                 "push-to-mute": false,
                 "push-to-mute-delay": 0,
@@ -56,6 +57,7 @@
                     "threshold": -10.199999999999999
                 },
                 "sync": 0,
+                "versioned_id": "compressor_filter",
                 "volume": 1.0
             }
         ],
@@ -71,7 +73,7 @@
         "monitoring_type": 0,
         "muted": true,
         "name": "Mic/Aux",
-        "prev_ver": 402653190,
+        "prev_ver": 419430401,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -81,6 +83,7 @@
             "device_id": "alsa_input.usb-Astro_Gaming_Inc._ASTRO_MixAmp_Pro-00.analog-mono"
         },
         "sync": 0,
+        "versioned_id": "pulse_input_capture",
         "volume": 0.63171350955963135
     },
     "AuxAudioDevice2": {
@@ -100,7 +103,7 @@
         "monitoring_type": 0,
         "muted": false,
         "name": "hdmi audio",
-        "prev_ver": 402653190,
+        "prev_ver": 419430401,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -110,7 +113,8 @@
             "device_id": "alsa_input.usb-1e4e_7016_20000130041415-02.analog-stereo"
         },
         "sync": 75000000,
-        "volume": 0.56495118141174316
+        "versioned_id": "pulse_input_capture",
+        "volume": 0.74989420175552368
     },
     "DesktopAudioDevice1": {
         "balance": 0.5,
@@ -129,7 +133,7 @@
         "monitoring_type": 0,
         "muted": false,
         "name": "Desktop Audio",
-        "prev_ver": 402653190,
+        "prev_ver": 419430401,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -139,10 +143,11 @@
             "device_id": "default"
         },
         "sync": 0,
+        "versioned_id": "pulse_output_capture",
         "volume": 1.0
     },
-    "current_program_scene": "wordless cover",
-    "current_scene": "fullscreen gameplay",
+    "current_program_scene": "fullscreen gameplay",
+    "current_scene": "wordless cover",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -171,6 +176,7 @@
     "quick_transitions": [
         {
             "duration": 500,
+            "fade_to_black": false,
             "hotkeys": [],
             "id": 2,
             "name": "Fade"
@@ -211,7 +217,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "replay message",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -231,6 +237,7 @@
                 "text": "replay"
             },
             "sync": 0,
+            "versioned_id": "text_ft2_source",
             "volume": 1.0
         },
         {
@@ -249,7 +256,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "wordless cover",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -291,6 +298,7 @@
                 ]
             },
             "sync": 0,
+            "versioned_id": "scene",
             "volume": 1.0
         },
         {
@@ -305,7 +313,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "starting soon message",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -325,6 +333,7 @@
                 "text": "stream starting soon"
             },
             "sync": 0,
+            "versioned_id": "text_ft2_source",
             "volume": 1.0
         },
         {
@@ -345,7 +354,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "color correction",
-                    "prev_ver": 402653190,
+                    "prev_ver": 419430401,
                     "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -356,6 +365,7 @@
                         "opacity": 100
                     },
                     "sync": 0,
+                    "versioned_id": "color_filter",
                     "volume": 1.0
                 }
             ],
@@ -366,7 +376,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "background",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -377,6 +387,7 @@
                 "unload": true
             },
             "sync": 0,
+            "versioned_id": "image_source",
             "volume": 1.0
         },
         {
@@ -399,7 +410,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "starting soon",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -499,6 +510,7 @@
                 ]
             },
             "sync": 0,
+            "versioned_id": "scene",
             "volume": 1.0
         },
         {
@@ -513,7 +525,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "brb message",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -533,6 +545,7 @@
                 "text": "be right back"
             },
             "sync": 0,
+            "versioned_id": "text_ft2_source",
             "volume": 1.0
         },
         {
@@ -555,7 +568,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "be right back",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -655,6 +668,7 @@
                 ]
             },
             "sync": 0,
+            "versioned_id": "scene",
             "volume": 1.0
         },
         {
@@ -671,7 +685,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "streamlabs alerts",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -684,6 +698,7 @@
                 "url": "https://streamlabs.com/alert-box/v3/59599A46193F35FCBA56"
             },
             "sync": 0,
+            "versioned_id": "linuxbrowser-source",
             "volume": 1.0
         },
         {
@@ -706,7 +721,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "fullscreen gameplay",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -806,6 +821,7 @@
                 ]
             },
             "sync": 0,
+            "versioned_id": "scene",
             "volume": 1.0
         },
         {
@@ -820,18 +836,21 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "hdmi capture",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "device_id": "/dev/video2",
+                "Exposure, Auto": 5557561106012987725,
+                "Power Line Frequency": 7234307546238118212,
+                "device_id": "/dev/video4",
                 "input": 0,
                 "pixelformat": 861030210
             },
             "sync": 0,
+            "versioned_id": "v4l2_input",
             "volume": 1.0
         },
         {
@@ -854,7 +873,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "loading",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -954,6 +973,7 @@
                 ]
             },
             "sync": 0,
+            "versioned_id": "scene",
             "volume": 1.0
         },
         {
@@ -968,7 +988,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "loading message",
-            "prev_ver": 402653190,
+            "prev_ver": 419430401,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -988,6 +1008,7 @@
                 "text": "loading ..."
             },
             "sync": 0,
+            "versioned_id": "text_ft2_source",
             "volume": 1.0
         }
     ],
